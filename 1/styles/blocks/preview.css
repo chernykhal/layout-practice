@@ -1,0 +1,9 @@
+.preview{
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+html{
+    background-color: #000;
+} 

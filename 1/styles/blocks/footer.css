@@ -1,0 +1,37 @@
+.footer{
+    padding: 0 229px;
+    display: flex;
+    margin-top: 200px;
+
+}
+.footer__info{
+    display: flex;
+     flex: 0 0 60%;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.footer__copyright{
+font-weight: 500;
+opacity: 0.5;
+}
+.footer__menu{
+    display: grid;
+    grid-template-columns:auto;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer__menu .menu__list{
+    display: grid;
+    grid-template-rows:auto;
+    grid-auto-flow: row;
+    row-gap: 16px;
+}
+.footer__menu .menu__list .menu__item{
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0px;
+
+}

@@ -1,0 +1,12 @@
+.header{
+    padding: 64px 80px;
+    display: grid;
+    grid-template-columns:auto;
+    grid-auto-flow: column;
+}
+.header__menu{
+    display: grid;
+    grid-template-columns:auto;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}

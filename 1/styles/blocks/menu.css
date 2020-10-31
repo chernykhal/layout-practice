@@ -1,0 +1,33 @@
+.menu__list{
+    display: grid;
+    list-style-type: none;
+    padding: 0;
+    grid-template-columns:auto;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 0;
+}
+.menu__link{
+color: #fff;
+}
+.menu__link--acount::before{
+content: url('../../images/svg/account.svg');
+vertical-align: middle;
+margin-right: 10px;
+}
+.menu__title{
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+color: #FBD784;
+
+}
+.menu__list--flex{
+display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-self: start;
+}

@@ -1,0 +1,16 @@
+.social{
+    position: fixed;
+    top: 50vh;
+    transform:rotate(90deg);
+    display: grid;
+    grid-template-columns:auto;
+    grid-auto-flow: column;
+    column-gap: 24px;
+}
+.social__caption{
+    display: inline-block;
+    line-height: 20px;
+}
+.social__item{
+    display: inline-block;
+}

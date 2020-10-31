@@ -1,0 +1,42 @@
+.navigation{
+    position: fixed;
+    top: 40vh;
+    right: 80px;
+    text-align: right;
+    display: flex;
+    flex-flow: row wrap;
+}
+.navigation__link{
+    color: #fff;
+}
+.navigation__list{
+    flex: 1 1 auto;
+    display: grid;
+    align-self: center;
+    row-gap: 40px;
+    padding-right: 32px;
+    line-height: 22px;
+}
+.navigation__progress-container{
+    height: 240px;
+    width: 3px;
+    flex: 1 1 auto;
+    position: relative;
+}
+.navigation__progress-bg{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background:#fff;
+    opacity: 0.5;
+}
+.navigation__progress-bar{
+    height: 20%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 1;
+    max-height: 100%;
+}
