@@ -6,5 +6,6 @@ font-weight: 700;
 line-height: 32px;
 letter-spacing: 0px;
 color:#fff;
-padding-bottom: 120px;
+padding: 0 0 120px 0;
+background-color: #0B1D26;
 }
