@@ -22,7 +22,7 @@
 }
 .background__mountains{
     margin-top: -30%;
-    z-index: -100;
+    z-index: -1000;
 }
 .background__hills{
     margin-top: -60%;
