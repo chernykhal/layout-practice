@@ -8,13 +8,24 @@
     column-gap: 40px;
     margin: 0;
 }
+@media (max-width:768px){
+   .menu__list{
+    list-style-type: none;
+    padding: 0;
+    grid-template-columns:none;
+    grid-auto-flow: row;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 0;
+} 
+}
 .menu__link{
 color: #fff;
 }
 .menu__link--acount::before{
 content: url('../../images/svg/account.svg');
-vertical-align: middle;
-margin-right: 10px;
+vertical-align: -20%;
+margin-right: 5px;
 }
 .menu__title{
 font-size: 24px;

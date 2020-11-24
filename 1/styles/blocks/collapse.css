@@ -1,0 +1,17 @@
+@media (max-width:768px){
+.collapsed{
+    display: grid;
+}
+.collapse__toggler{
+    background: url('/1/images/svg/open.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+}
+.collapse__toggler.toggled{
+    background: url('/1/images/svg/close.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}

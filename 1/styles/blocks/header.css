@@ -10,3 +10,33 @@
     grid-auto-flow: column;
     justify-content: space-between;
 }
+.header__toggler{
+    display: none;
+}
+@media (max-width:768px){
+    .header{
+        padding: 32px 40px 0 40px;
+        grid-template-columns: none;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+
+    }
+    .header__menu{
+    grid-template-columns:none;
+    grid-auto-flow: row;
+    justify-content: start;
+    margin-top: 20px;
+    display: none;
+}
+.header__toggler{
+    display: block;
+    position: absolute;
+    right: 5%;
+}
+.header__button{
+    background: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+}
