@@ -75,6 +75,7 @@ color: #fff;
 }
 
 @media (max-width:768px){
+    
     .article-preview{
    flex: none;
    display: grid;
@@ -118,5 +119,8 @@ line-height: 11px;
     height: 15px;
     width: auto;
     vertical-align: middle;
+}
+.article-preview__description{
+    margin-top: 16px;
 }
 }

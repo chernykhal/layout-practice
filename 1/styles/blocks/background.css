@@ -37,3 +37,9 @@
     right: 0;
     background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
 }
+@media (min-width:769px){
+.background__transform{
+    transform: translateY(-200px);
+    transition: transform 2s;
+}
+}
