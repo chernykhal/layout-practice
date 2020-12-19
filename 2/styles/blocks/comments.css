@@ -1,0 +1,12 @@
+.comment{
+    box-shadow: 0px 4px 10px rgb(235, 235, 235);
+}
+.comment__avatar{
+    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+    
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
